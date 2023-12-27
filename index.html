@@ -15,16 +15,26 @@
         }
 
         header {
-            background-color: rgba(73, 61, 37, 0.5);
-            color: white;
-            padding: 20px;
-            text-align: center;
-            position: relative;
-            z-index: 1;
-            display: flex;
-            flex-direction: column;
-            align-items: center; /* Align items vertically in the center */
-        }
+    background-color: rgba(73, 61, 37, 0.5);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row; /* Arrange items horizontally */
+    justify-content: space-between; /* Distribute items along the main axis */
+    align-items: center; /* Align items vertically in the center */
+}
+
+header img {
+    max-width: 300px; /* Adjust the size as needed */
+}
+
+h1 {
+    margin: 0; /* Remove default margin for h1 */
+}
+
 
         header img {
             max-width: 300px; /* Adjust the size as needed */
